@@ -1,16 +1,9 @@
 #!/usr/bin/python3
 
 """
-Scripting for Cybersecurity (COMP9038)
-Assignment 2 - Network Attack Automation
-Student Name: Udbhav Singh Chauhan
-Student Number: R00258663
-Course: MSc in Cybersecurity
-
 This is a python script/tool designed to automate the process of discovering weak usernames and passwords commonly used in network services like HTTP and SSH.
 The script allows users to perform reconnaissance by targeting specific IPs and ports including features for active bruteforcing of credentials.
 User can also choose to add persistence to the attack and later connect with the target using a netcat listener.
-
 """
 
 import argparse
